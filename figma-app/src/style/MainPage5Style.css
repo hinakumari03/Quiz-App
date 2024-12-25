@@ -1,0 +1,167 @@
+.Main-5 {
+  height: auto; 
+  width: 1360px;
+  background-color: rgba(83, 81, 81, 0.4);
+  margin-top: 80px;
+  margin-left: 80px;
+  padding-bottom: 20px; 
+}
+
+
+.row-nine, .row-ten {
+  width: 1360px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #fff;
+}
+
+.row-nine {
+  height: 80px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+
+.row-ten {
+  height: 100px;
+  width: 1360px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px; 
+}
+.row-eleven {
+  height: auto;
+  width: 1360px;
+  /* background-color: rgb(218, 138, 25); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  color: #cecccc;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Box {
+  height: 100px;
+  width: 400px;
+  /* background-color: #25a52d; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Box input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #dbd9d9;
+  background-color: transparent;
+  color: #cecccc;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.row-twelve{
+  height: 100px;
+  width: 1360px;
+  /* background-color: yellow; */
+}
+.Box-one {
+  width: 1330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #cecccc;
+}
+
+.Box-one input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #dbd9d9;
+  background-color: transparent;
+  color: #cecccc;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.row-thirteen{
+  height: 100px;
+  width: 1360px;
+  /* background-color: rgb(145, 37, 240); */
+}
+.Box-two { 
+  width: 1330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #cecccc; 
+}
+
+.Box-two input {
+  width: 100%;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #dbd9d9;
+  background-color: transparent;
+  color: #cecccc;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+
+
+.Box input::placeholder, .Box-one input::placeholder, .Box-two input::placeholder {
+  color: #ccc;
+  font-size: 16px;
+}
+
+.Box input:focus, .Box-one input:focus, .Box-two input:focus {
+  border-bottom: 2px solid #000;
+}
+
+button {
+  display: block;
+ 
+  margin-left: 20px;
+  padding: 20px 30px;
+  background-color:#FF5043;
+  color: #fff;
+  border: none;
+  
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #f72617;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color:#f72617 ;
+  transform: scale(1);
+}

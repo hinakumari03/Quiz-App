@@ -1,0 +1,227 @@
+  .hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  color: white;
+  margin: 100px 0; 
+}
+ 
+
+ .row-1 {
+  height: 250px;
+  width: 100%;
+   /* background-color: rgb(164, 98, 12);  */
+}
+
+
+.boxA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100%; 
+  /* background-color: aqua; */
+   padding: 20px;
+  color: #c8c4c4;
+  font-size: 40px;
+  font-weight: 600;
+  flex-wrap: wrap; 
+}
+
+ .boxA > */* { Target the direct children of .boxA  */{
+   margin: 5px; 
+  text-align: center; 
+}
+
+
+.boxB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 100%;
+  padding: 30px; 
+  /* background-color: blueviolet; */
+   font-size: 25px;
+  font-weight: 600;
+  color: #FFFFFF;
+  flex-wrap: wrap; 
+}
+
+.boxB > * {
+  margin: 5px;
+  text-align: center;
+}
+
+
+.boxC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%; 
+  /* background-color: rgb(231, 141, 25); */
+   font-size: 10px;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 30px;
+  flex-wrap: wrap; 
+}
+
+.boxC > * {
+  margin: 5px;
+  text-align: center;
+}
+
+
+.boxD {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid rgb(182, 175, 175);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 640px; 
+  color: rgb(162, 156, 156);
+  width: auto; 
+}
+
+
+.boxD:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 1024px) {
+  .hero {
+    height: 450px;
+    margin: 50px 10%;
+  }
+
+  .row-1 {
+    height: 200px;
+  }
+
+  .boxA, .boxB, .boxC {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .boxA, .boxB, .boxC {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .boxD {
+    margin-left: 0; 
+    margin-top: 20px;
+    width: 100%; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+    margin: 20px 5%;
+  }
+
+  .row-1 {
+    height: 180px;
+  }
+
+  .boxA, .boxB, .boxC {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .boxA, .boxB, .boxC {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .boxD {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .hero {
+    height: 350px;
+    margin: 20px 5%;
+  }
+
+  .row-1 {
+    height: 150px;
+  }
+
+  .boxA, .boxB, .boxC {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .boxA, .boxB, .boxC {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .boxD {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    width: 100%;
+    margin-top: 20px;
+  }
+}  
+
+.row-2{
+  height: 250px;
+  width: 100%;
+ background-color: rgba(83, 81, 81, 0.8);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.col-1, .col-2, .col-3 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+.col-1 img, .col-2 img, .col-3 img {
+height: 80px; 
+width: 80px;
+margin-bottom: 10px;
+}
+
+
+.number {
+font-size: 24px; 
+font-weight: bold; 
+color: #11a8da; 
+cursor: pointer; 
+text-align: center;
+margin-top: 5px;
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+transition: transform 0.2s ease-in-out; 
+}
+
+.number:hover {
+transform: scale(1.1); 
+color: #ff4500; 
+} 
